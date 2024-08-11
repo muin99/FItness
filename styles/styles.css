@@ -205,6 +205,7 @@ nav ul li a {
 .container{
     background-color: rgba(34, 34, 34, 1);
     border-radius: 18px;
+    margin-top: 100px;
 }
 .main-text{
     padding-top: 41px ;
@@ -212,7 +213,7 @@ nav ul li a {
     padding-bottom: 40px;
 }
 .main-text button{
-    margin-top: 34px;
+    margin-top: 30px;
 }
 .main-text h3{
     font-size: 48px;
@@ -221,4 +222,13 @@ nav ul li a {
 .main-text p{
     font-size: 14px;
     width: 443px;
+    line-height: 24px;
+    margin: 14px 0 0 0;
+}
+.run-img-sect img{
+    width: 366px;
+    height: 312px;
+    background-color: rgb(61, 60, 60);
+    margin: 30px 32px 29px 165px;
+    border-radius: 15px;
 }
