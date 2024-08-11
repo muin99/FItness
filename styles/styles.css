@@ -232,3 +232,16 @@ nav ul li a {
     margin: 30px 32px 29px 165px;
     border-radius: 15px;
 }
+/* BMI Calculator */
+.bmi-text{
+    display: flex;
+    justify-content: center;
+    margin-top: 88px;
+}
+.bmi-text h1 {
+    font-size: 48px;
+    margin: 0px;
+}
+.bmi-text p{
+    width: 671px;
+}
