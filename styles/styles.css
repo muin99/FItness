@@ -13,11 +13,25 @@ body {
 
 nav,
 header,
-main {
+.habit
+{
     width: 1060px;
     margin: 50px auto;
     font-family: "Inter", sans-serif;
 
+}
+nav, header, .habit, .container, .bmi-text{
+    width: 1060px;
+    margin: 50px auto;
+    font-family: "Inter", sans-serif;
+}
+.calc{
+    background-color: rgba(34, 34, 34, 1);
+}
+.chart{
+    width: 1060px;
+    margin: 0 auto;
+    font-family: "Inter", sans-serif;
 }
 
 
@@ -239,9 +253,31 @@ nav ul li a {
     margin-top: 88px;
 }
 .bmi-text h1 {
-    font-size: 48px;
+    font-size: 3rem;
     margin: 0px;
 }
 .bmi-text p{
     width: 671px;
+}
+.chart{
+    padding-bottom: 133px;
+}
+.chart h1{
+    font-size: 27px;
+    padding: 50px 0px 50px 0px;
+}
+table{
+    border-collapse: collapse;
+}
+td{
+    border: solid 1px rgba(128, 128, 128, 0.178);
+    padding: 15px 23px;
+    
+}
+th{
+    border: solid 1px rgba(128, 128, 128, 0.178);
+    padding: 15px 23px;
+}
+td{
+    opacity: 0.4;
 }
