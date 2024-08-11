@@ -13,26 +13,15 @@ body {
 
 nav,
 header,
-.habit
+.habit,
+.container
 {
     width: 1060px;
     margin: 50px auto;
     font-family: "Inter", sans-serif;
 
 }
-nav, header, .habit, .container, .bmi-text{
-    width: 1060px;
-    margin: 50px auto;
-    font-family: "Inter", sans-serif;
-}
-.calc{
-    background-color: rgba(34, 34, 34, 1);
-}
-.chart{
-    width: 1060px;
-    margin: 0 auto;
-    font-family: "Inter", sans-serif;
-}
+
 
 
 /* shared styles */
@@ -61,6 +50,14 @@ nav, header, .habit, .container, .bmi-text{
 .flex {
     display: flex;
 }
+.bmi-text{
+    font-family: "Inter", sans-serif;
+}
+
+.chart{
+    font-family: "Inter", sans-serif;
+}
+
 
 /* nav */
 .main-logo {
@@ -70,7 +67,7 @@ nav, header, .habit, .container, .bmi-text{
 .navbar {
     display: flex;
     justify-content: space-between;
-    font-family: "Inter", sans-serif;
+    
 }
 
 .main-logo {
@@ -247,6 +244,12 @@ nav ul li a {
     border-radius: 15px;
 }
 /* BMI Calculator */
+.calc{
+    background-color: rgba(34, 34, 34, 1);
+    font-family: "Inter", sans-serif;
+    display: flex;
+    margin-top: 88pxg;
+}
 .bmi-text{
     display: flex;
     justify-content: center;
@@ -261,6 +264,8 @@ nav ul li a {
 }
 .chart{
     padding-bottom: 133px;
+    margin-left: 150px;
+
 }
 .chart h1{
     font-size: 27px;
@@ -280,4 +285,53 @@ th{
 }
 td{
     opacity: 0.4;
+}
+.main-calc h3{
+    font-size: 28px;
+
+}
+.main-calc p{
+    width: 577px;
+}
+.main-calc{
+    margin-left: 177px;
+    margin-top: 50px;
+}
+.calculator{
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 3;
+    gap: 12px;
+}
+#height{
+    grid-column: 1;
+    grid-row: 1;
+}
+#weight{
+    grid-column: 2;
+    grid-row: 1;
+}
+#age{
+    grid-column: 1;
+    grid-row: 2;
+}
+#gender{
+    grid-column: 2;
+    grid-row: 2;
+}
+#act{
+    grid-column: span 2;
+}
+
+
+
+.calculator input[type="number"], input[type="text"], select{
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 8px;
+    padding: 13px 20px;
+}
+.main-calc button{
+    margin-top: 32px;
 }
