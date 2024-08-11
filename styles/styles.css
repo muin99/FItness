@@ -1,99 +1,178 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama');
 .inter-primary {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-  }
-  
+}
+
 body {
     background-color: rgb(39, 37, 37);
     color: white;
 }
-nav, header{
+
+nav,
+header {
     width: 1060px;
     margin: 50px auto;
     font-family: "Inter", sans-serif;
-    
+
 }
 
 /* shared styles */
-.logo-primary{
+.logo-primary {
     font-size: 34px;
     font-weight: 800;
     font-style: italic;
     color: rgba(230, 83, 60, 1);
 }
-.btn-primary{
+
+.btn-primary {
     background-color: rgba(230, 83, 60, 1);
     color: white;
     border: none;
     border-radius: 46px;
     font-size: 1.2rem;
     padding: 16px 45px;
+    cursor: pointer;
 }
-.text-primary{
+
+.text-primary {
     opacity: 0.4;
 }
-.title-primary{
 
-}
-.flex{
+.flex {
     display: flex;
 }
 
 /* nav */
-nav{
-
-}
-.main-logo{
+.main-logo {
     margin: auto 0;
 }
-.navbar{
+
+.navbar {
     display: flex;
     justify-content: space-between;
     font-family: "Inter", sans-serif;
 }
-.main-logo{
+
+.main-logo {
     list-style: none;
-    
+
 }
-nav ul{
+
+nav ul {
     display: flex;
     list-style: none;
     align-items: center;
     padding: 0px;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 39px;
-    
-    
+
+
 }
 
-nav ul li{
+nav ul li {
     padding: 0 45px 0 0;
-    
+
 }
-nav ul li a{
+
+nav ul li a {
     text-decoration: none;
     color: white;
-    
+
 }
-.home-btn{
+
+.home-btn {
     padding: 8px 20px;
 }
+
 /* banner */
-.main-banner-title{
+.main-banner-title {
     font-size: 4.5rem;
     width: 520px;
 }
-.main-banner-desc{
+.shape{
+    font-family: 'Miama', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 78px;
+    padding: 0px;
+    line-height: 120%;
+}
+
+.main-banner-desc {
     width: 520px;
     margin-bottom: 28px;
 }
-.download{
+
+.download {
     background-color: transparent;
     border: 1px solid;
 }
-.banner-img img{
+
+.banner-img img {
     margin-left: 167px;
-    
+}
+
+.badge-1 {
+    width: 193px;
+    border: 1px solid white;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    border: none;
+    margin-top: -480px;
+    margin-left: 380px;
+
+    backdrop-filter: blur(6px);
+
+}
+
+.badge-1 h3 {
+    font-size: 2.5rem;
+    padding-top: 17px;
+    margin: 0px 24px;
+}
+
+.badge-1 p {
+    margin-left: 24px;
+    padding-bottom: 17px;
+    padding-top: 0px;
+
+}
+
+.badge-2 {
+    width: 206px;
+    border: 1px solid white;
+    background-color: rgba(48, 48, 48, 0.733);
+    border-radius: 12px;
+    border: none;
+    margin-top: 210px;
+    margin-left: 80px;
+    backdrop-filter: blur(6px);
+
+}
+
+.badge-2 h3 {
+    font-size: 24px;
+    padding: 20px 0 0 12px;
+    margin: 0px;
+}
+
+.badge-2 p {
+    padding: 8px 12px;
+    padding-bottom: 20px;
+    margin: 0px;
+}
+
+.play-icon {
+    margin-top: 25px;
+    margin-right: 0px;
+    margin-left: 12px;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #E6533C;
 }
