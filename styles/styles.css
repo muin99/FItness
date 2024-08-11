@@ -14,12 +14,12 @@ body {
 nav,
 header,
 .habit,
-.container
+.container,
+.team
 {
     width: 1060px;
     margin: 50px auto;
     font-family: "Inter", sans-serif;
-
 }
 
 
@@ -44,7 +44,6 @@ header,
 
 .text-primary {
     opacity: 0.4;
-    
 }
 
 .flex {
@@ -67,7 +66,6 @@ header,
 .navbar {
     display: flex;
     justify-content: space-between;
-    
 }
 
 .main-logo {
@@ -82,19 +80,15 @@ nav ul {
     padding: 0px;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 39px;
-
-
 }
 
 nav ul li {
     padding: 0 45px 0 0;
-
 }
 
 nav ul li a {
     text-decoration: none;
     color: white;
-
 }
 
 .home-btn {
@@ -165,7 +159,6 @@ nav ul li a {
     margin-top: 210px;
     margin-left: 80px;
     backdrop-filter: blur(6px);
-
 }
 
 .badge-2 h3 {
@@ -210,7 +203,6 @@ nav ul li a {
 }
 .exer h5{
     font-weight: 600;
-    
 }
 /* Run-img section */
 .container{
@@ -265,7 +257,6 @@ nav ul li a {
 .chart{
     padding-bottom: 133px;
     margin-left: 150px;
-
 }
 .chart h1{
     font-size: 27px;
@@ -277,7 +268,6 @@ table{
 td{
     border: solid 1px rgba(128, 128, 128, 0.178);
     padding: 15px 23px;
-    
 }
 th{
     border: solid 1px rgba(128, 128, 128, 0.178);
@@ -288,7 +278,6 @@ td{
 }
 .main-calc h3{
     font-size: 28px;
-
 }
 .main-calc p{
     width: 577px;
@@ -323,8 +312,6 @@ td{
     grid-column: span 2;
 }
 
-
-
 .calculator input[type="number"], input[type="text"], select{
     border-radius: 8px;
     background-color: rgba(255, 255, 255, 0.1);
@@ -334,4 +321,12 @@ td{
 }
 .main-calc button{
     margin-top: 32px;
+}
+/* Team section */
+.team-desc{
+    text-align: center;
+}
+.team-desc h1{
+    font-size: 48px;
+    margin-bottom: 14px;
 }
