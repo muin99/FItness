@@ -7,17 +7,19 @@
 }
 
 body {
-    background-color: rgb(39, 37, 37);
+    background-color: black;
     color: white;
 }
 
 nav,
-header {
+header,
+main {
     width: 1060px;
     margin: 50px auto;
     font-family: "Inter", sans-serif;
 
 }
+
 
 /* shared styles */
 .logo-primary {
@@ -39,6 +41,7 @@ header {
 
 .text-primary {
     opacity: 0.4;
+    
 }
 
 .flex {
@@ -88,6 +91,7 @@ nav ul li a {
 }
 
 /* banner */
+
 .main-banner-title {
     font-size: 4.5rem;
     width: 520px;
@@ -175,4 +179,46 @@ nav ul li a {
     width: 40px;
     border-radius: 50%;
     background-color: #E6533C;
+}
+/* Habit section */
+.habit-sect{
+    text-align: center;
+}
+.habit-title{
+    font-size: 48px;
+    margin-top: 90px;
+}
+.img-container{
+    margin-top: 57px;
+}
+.exer img{
+    border-radius: 50%;
+}
+.exer{
+    text-align: center;
+}
+.exer h5{
+    font-weight: 600;
+    
+}
+/* Run-img section */
+.container{
+    background-color: rgba(34, 34, 34, 1);
+    border-radius: 18px;
+}
+.main-text{
+    padding-top: 41px ;
+    margin-left: 52px;
+    padding-bottom: 40px;
+}
+.main-text button{
+    margin-top: 34px;
+}
+.main-text h3{
+    font-size: 48px;
+    margin: 0px;
+}
+.main-text p{
+    font-size: 14px;
+    width: 443px;
 }
